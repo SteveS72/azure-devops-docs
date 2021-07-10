@@ -336,7 +336,7 @@ sections:
               PS Get-AzureADUser -objectId This is the result of the previous command
               ```
           
-              d. Change the **usertype** from **member** to **guest**:
+              d. Change the **usertype** from **guest** to **member**:
           
               ```
               PS Set-AzureADUser -objectId <replacethe object ID for the result of the command to search> -UserType Member
